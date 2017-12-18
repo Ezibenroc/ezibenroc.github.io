@@ -1,7 +1,0 @@
-
-#+SETUPFILE: level-0.org
-#+TITLE: Bliblablu
-
-This is a test, we are in file =remember.org=.
-
-Our home file is: [[file:index.org]].

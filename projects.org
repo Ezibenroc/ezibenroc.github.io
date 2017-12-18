@@ -1,0 +1,7 @@
+#+SETUPFILE: level-0.org
+#+TITLE: Projects
+
+Several open-source projects to which I contribute or I am the author.
+* Roaring bitmaps
+* Simgrid
+* Platypus

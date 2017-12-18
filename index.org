@@ -1,5 +1,5 @@
 #+SETUPFILE: level-0.org
-#+TITLE: Performance variability
+#+TITLE: Tom Cornebize
 
-* Helo world!
-Our other file is: [[file:remember.org]]
+* About me
+Some text goes here...
