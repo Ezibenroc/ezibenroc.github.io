@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+#+LANGUAGE: EN
+#+STARTUP: overview indent inlineimages logdrawer hidestars
+#+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/navbar.css" type="text/css" />
+#+HTML_HEAD: <div id="navigation" class="topnav">
+#+HTML_HEAD: <a href=foo.html>Foo</a>
+#+HTML_HEAD: <a href=bar.html>Bar</a>
+#+HTML_HEAD: </div>

@@ -1,9 +1,6 @@
 
-#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
+#+SETUPFILE: level-0.org
 #+TITLE: Bliblablu
-#+HTML: <div id="navigation">
-#+INCLUDE: "sitemap-generated.org" :lines "3-"
-#+HTML: </div>
 
 This is a test, we are in file =remember.org=.
 

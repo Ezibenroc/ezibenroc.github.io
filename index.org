@@ -1,9 +1,5 @@
-#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
+#+SETUPFILE: level-0.org
 #+TITLE: Performance variability
-#+HTML: <div id="navigation">
-#+INCLUDE: "sitemap-generated.org" :lines "3-"
-#+HTML: </div>
-
 
 * Helo world!
 Our other file is: [[file:remember.org]]
