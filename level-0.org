@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 #+LANGUAGE: EN
 #+STARTUP: overview indent inlineimages logdrawer hidestars
+#+OPTIONS: toc:nil
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/navbar.css" type="text/css" />
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/font-awesome.min.css" type="text/css" />
