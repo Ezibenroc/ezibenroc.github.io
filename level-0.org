@@ -3,7 +3,11 @@
 #+STARTUP: overview indent inlineimages logdrawer hidestars
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/navbar.css" type="text/css" />
+#+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/font-awesome.min.css" type="text/css" />
 #+HTML_HEAD: <div id="navigation" class="topnav">
 #+HTML_HEAD: <a href=index.html>About</a>
 #+HTML_HEAD: <a href=projects.html>Projects</a>
+#+HTML_HEAD: <a href="https://www.linkedin.com/in/tomcornebize"                     class="list-group-item"><i class="fa fa-linkedin fa-fw"></i></a>
+#+HTML_HEAD: <a href="https://scholar.google.com/citations?user=4YtfEysAAAAJ&hl=fr" class="list-group-item"><i class="fa fa-google fa-fw"></i></a>
+#+HTML_HEAD: <a href="https://github.com/Ezibenroc/"                                class="list-group-item"><i class="fa fa-github fa-fw"></i></a>
 #+HTML_HEAD: </div>
