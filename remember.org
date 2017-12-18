@@ -1,9 +1,9 @@
 
-# -*- coding: utf-8 -*-
+#+SETUPFILE: ~/.emacs.d/org-templates/level-0.org
 #+TITLE: Bliblablu
-#+LANGUAGE: EN
-#+STARTUP: overview indent inlineimages logdrawer hidestars
-#+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
+#+HTML: <div id="navigation">
+#+INCLUDE: "sitemap-generated.org" :lines "3-"
+#+HTML: </div>
 
 This is a test, we are in file =remember.org=.
 
