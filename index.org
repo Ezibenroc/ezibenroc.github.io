@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+#+TITLE: Performance variability
+#+LANGUAGE: EN
+#+STARTUP: overview indent inlineimages logdrawer hidestars
+#+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
+
+* Helo world!
+Our other file is: [[file:remember.org]]
