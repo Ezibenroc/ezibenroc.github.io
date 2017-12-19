@@ -3,3 +3,18 @@
 
 * About me
 #+HTML: <img src='img/picture.jpg' class='onright photo' alt=''/></div>
+
+Since October 2017, I am a PhD student at the [[https://www.univ-grenoble-alpes.fr/][Université Grenoble Alpes]], under the supervision of [[http://mescal.imag.fr/membres/arnaud.legrand/][Arnaud Legrand]]. I am
+working on the simulation of HPC workloads.  Prior to that, I did my master thesis on the same topic (thesis available
+on [[https://hal.inria.fr/hal-01544827v1][HAL]]).
+
+* Contact
+The best way to reach me is by email, at [[mailto:tom.cornebize@univ-grenoble-alpes.fr][tom.cornebize@univ-grenoble-alpes.fr]].
+
+My office is at the 4th floor of the IMAG building, located at this address:
+#+BEGIN_EXAMPLE
+LIG - Bâtiment IMAG
+700 Avenue Centrale
+38401 St Martin d'Hères
+France
+#+END_EXAMPLE
