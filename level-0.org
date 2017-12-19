@@ -9,6 +9,7 @@
 #+HTML_HEAD: <div id="navigation" class="topnav">
 #+HTML_HEAD: <a href=index.html>About</a>
 #+HTML_HEAD: <a href=projects.html>Projects</a>
+#+HTML_HEAD: <a href=publications.html>Publications</a>
 #+HTML_HEAD: <a href="https://www.linkedin.com/in/tomcornebize"                     class="list-group-item"><i class="fa fa-linkedin fa-fw"></i></a>
 #+HTML_HEAD: <a href="https://scholar.google.com/citations?user=4YtfEysAAAAJ&hl=fr" class="list-group-item"><i class="fa fa-google fa-fw"></i></a>
 #+HTML_HEAD: <a href="https://stackoverflow.com/users/4110059/tom-cornebize"        class="list-group-item"><i class="fa fa-stack-overflow fa-fw"></i></a>
