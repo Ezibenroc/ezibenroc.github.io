@@ -2,4 +2,4 @@
 #+TITLE: Tom Cornebize
 
 * About me
-Some text goes here...
+#+HTML: <img src='img/picture.jpg' class='onright photo' alt=''/></div>
