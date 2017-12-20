@@ -8,6 +8,8 @@ Since October 2017, I am a PhD student at the [[https://www.univ-grenoble-alpes.
 working on the simulation of HPC workloads.  Prior to that, I did my master thesis on the same topic (thesis available
 on [[https://hal.inria.fr/hal-01544827v1][HAL]]).
 
+My CV is available in [[file:cornebize.pdf][PDF]] and [[file:cornebize.html][HTML]] (last update: 11 oct. 2017).
+
 * Contact
 The best way to reach me is by email, at [[mailto:tom.cornebize@univ-grenoble-alpes.fr][tom.cornebize@univ-grenoble-alpes.fr]].
 
