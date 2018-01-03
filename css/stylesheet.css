@@ -187,10 +187,6 @@
 
   }
 
-  li {
-    margin: .4em;
-  }
-
   table {
     border: none;
   }
@@ -940,9 +936,6 @@
 
 } /* END OF @media all */
 
-
-.left{margin:0 15px 4px 0;}  /* Got rid of float:left; */
-.right{margin:0 0 4px 15px;} /* Got rid of float:right;  */
 .onright{margin:0 0 4px 15px; float:right;} /* Got rid of float:right;  */
 .photo{
 border:1px solid #bababa;
