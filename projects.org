@@ -2,8 +2,18 @@
 #+TITLE: Projects
 
 Several open-source projects to which I contribute.
-* Simgrid
-* Roaring bitmaps
-** CRoaring
-** PyRoaring
-* Platypus
+* [[http://simgrid.gforge.inria.fr/][Simgrid]]
+* [[http://roaringbitmap.org/][Roaring bitmaps]]
+** [[https://github.com/RoaringBitmap/CRoaring][CRoaring]]
+** [[https://github.com/Ezibenroc/PyRoaringBitMap][PyRoaring]]
+* [[http://projetpp.github.io][Platypus]]
+Platypus is a modular and open source question answering framework. Its main purpose is to answer to questions asked in
+a natural language (e.g. in English). For instance, it answers correctly to the question:
+
+#+begin_quote
+What is the birth date of the president of the United States?
+#+end_quote
+
+For more information, read the [[file:doc/platypus_report.pdf][report]] or the [[file:doc/platypus_slides.pdf][slides]]. This work was initially a student project. It was done as part of
+the master's first year at the ENS Lyon, in a team of seven. The project has then been sold to [[https://lexistems.com/][Lexistems]] and is no
+longer actively maintained by ourselves.
