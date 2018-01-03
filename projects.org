@@ -5,17 +5,19 @@ Several open-source projects to which I contribute.
 * Simgrid
 Website: http://simgrid.gforge.inria.fr
 
-Simgrid is a free software to simulate a wide range of distributed systems: grid, P2P, cloud, MPI applications. It is
-a joint effort of CNRS, Inria and various universities. Its simulation models have been theoretically and
-experimentally assessed.
+Simgrid is a free software to simulate a wide range of distributed systems: grid, P2P, cloud, MPI applications. Its
+simulation models have been theoretically and experimentally assessed.
 
 I mostly use and contribute to [[http://simgrid.gforge.inria.fr/simgrid/3.18/doc/group__SMPI__API.html][SMPI]], a module of Simgrid which can realisticaly simulate unmodified MPI applications.
 * Roaring bitmaps
 Website: http://roaringbitmap.org
-** CRoaring
-Github repository: https://github.com/RoaringBitmap/CRoaring
-** PyRoaring
-Github repository: https://github.com/Ezibenroc/PyRoaringBitMap
+
+Roaring bitmaps are fast and lightweight sets of unsigned 32 bits integers. They can be several orders of magnitude more
+efficient than classical implementations (e.g. hash tables, balanced binary trees, uncompressed bitmaps), both in terms
+of time and memory consumption. Implementations exist in several languages, including C and Python:
+- [[https://github.com/RoaringBitmap/CRoaring][CRoaring]] is a C implementation. I implemented several parts of the library: range constructor, select query, subset test.
+- [[https://github.com/Ezibenroc/PyRoaringBitMap][PyRoaring]] is a Python wrapper for the C implementation. It allows to use roaring bitmaps transparently in Python, with
+  the speed of C. I implemented most of the library.
 * Platypus
 Website: https://projetpp.github.io
 
