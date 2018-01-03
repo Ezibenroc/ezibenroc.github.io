@@ -2,7 +2,7 @@
 #+TITLE: Tom Cornebize
 
 * About me
-#+HTML: <img src='img/picture.jpg' class='onright photo' alt=''/></div>
+#+HTML: <img src='img/picture.jpg' class='onright photo' alt=''/></img>
 
 Since October 2017, I am a PhD student at the [[https://www.univ-grenoble-alpes.fr/][Université Grenoble Alpes]], under the supervision of [[http://mescal.imag.fr/membres/arnaud.legrand/][Arnaud Legrand]]. I am
 working on the simulation of HPC workloads.  Prior to that, I did my master thesis on the same topic (thesis available
