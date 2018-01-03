@@ -11,13 +11,13 @@ experimentally assessed.
 
 I mostly use and contribute to [[http://simgrid.gforge.inria.fr/simgrid/3.18/doc/group__SMPI__API.html][SMPI]], a module of Simgrid which can realisticaly simulate unmodified MPI applications.
 * Roaring bitmaps
-  Website: http://roaringbitmap.org
+Website: http://roaringbitmap.org
 ** CRoaring
-   Github repository: https://github.com/RoaringBitmap/CRoaring
+Github repository: https://github.com/RoaringBitmap/CRoaring
 ** PyRoaring
-   Github repository: https://github.com/Ezibenroc/PyRoaringBitMap
+Github repository: https://github.com/Ezibenroc/PyRoaringBitMap
 * Platypus
-  Website: https://projetpp.github.io
+Website: https://projetpp.github.io
 
 Platypus is a modular and open source question answering framework. Its main purpose is to answer to questions asked in
 a natural language (e.g. in English). For instance, it answers correctly to the question:
