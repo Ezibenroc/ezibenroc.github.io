@@ -12,7 +12,6 @@
     line-height: 21px;
     color: #333;
 
-    max-width: 80%;
     margin: auto;
     /* background-image: url(http://orgmode.org/worg-unicorn.png); */
     /* background-position: 25px 5px; */
@@ -20,6 +19,8 @@
     }
     body #content {
       padding-top: 70px;
+      max-width: 80%;
+      margin: auto;
     }
     body .title {
       margin-left: 120px;
@@ -931,6 +932,8 @@
     padding: .3em;
     border: 1px solid gray;
     background-color: #eeeeee;
+    max-width: 80%;
+    margin: auto;
   }
 
 

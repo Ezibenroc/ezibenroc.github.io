@@ -6,7 +6,8 @@
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/navbar.css" type="text/css" />
 #+HTML_HEAD: <link rel="stylesheet" title="Standard" href="css/font-awesome.min.css" type="text/css" />
-#+HTML_HEAD: <ul class="topnav">
+#+HTML_HEAD: <div id="topnav">
+#+HTML_HEAD: <ul>
 #+HTML_HEAD: <li><a href=index.html>About</a></li>
 #+HTML_HEAD: <li><a href=projects.html>Projects</a></li>
 #+HTML_HEAD: <li><a href=publications.html>Publications</a></li>
@@ -16,3 +17,4 @@
 #+HTML_HEAD: <li class="right"><a href="https://github.com/Ezibenroc/"                                class="list-group-item"><i class="fa fa-github fa-fw"></i></a></li>
 #+HTML_HEAD: <li class="right"><a href="mailto:tom.cornebize@univ-grenoble-alpes.fr"                  class="list-group-item"><i class="fa fa-envelope fa-fw"></i></a></li>
 #+HTML_HEAD: </ul>
+#+HTML_HEAD: </div>
