@@ -1,7 +1,8 @@
 #+SETUPFILE: level-0.org
 #+TITLE: Publications
 
+- [[[http://dx.doi.org/10.1109/CLUSTER.2019.8891011][DOI]]] [[https://hal.inria.fr/hal-02096571][Fast and Faithful Performance Prediction of MPI Applications: the HPL Case Study]] with Arnaud Legrand and Franz C. Heinrich
 - [[[http://dx.doi.org/10.1109/cluster.2017.66][DOI]]] [[https://hal.inria.fr/hal-01523608][Predicting the Energy Consumption of MPI Applications at Scale Using a Single Node]], with Franz\nbsp C. Heinrich, Augustin Degomme, Arnaud Legrand, Alexandra
-  Carpen-Amarie, Sascha Hunold, Anne-Cécile Orgerie, and Martin Quinson.
+  Carpen-Amarie, Sascha Hunold, Anne-Cécile Orgerie and Martin Quinson.
 - [[[http://dx.doi.org/10.1109/HiPINEB.2017.13][DOI]]] Isolating jobs for security on high-performance fabrics, with Matthieu Perotin.
 - [[[http://dx.doi.org/10.1007/978-3-662-43613-4_5][DOI]]] [[https://hal.archives-ouvertes.fr/hal-00972559][Efficient and Generalized Decentralized Monitoring of Regular Languages]], with Yliès Falcone and Jean-Claude Fernandez.
