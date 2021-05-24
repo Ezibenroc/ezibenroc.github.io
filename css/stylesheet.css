@@ -19,7 +19,7 @@
     }
     body #content {
       padding-top: 70px;
-      max-width: 80%;
+      max-width: 1000px;
       margin: auto;
     }
     body .title {
@@ -939,7 +939,20 @@
 
 } /* END OF @media all */
 
-.onright{margin:0 0 4px 15px; float:right;} /* Got rid of float:right;  */
+@media only screen and (max-width: 600px)
+{
+    body #content {
+      padding-top: 70px;
+      max-width: 100%;
+      margin: auto;
+    }
+} /* END OF @media all */
+
+.org-ul {
+    padding-left: 1em;
+}
+
+.onright{margin:0 0 4px 15px; float:right; width:200px;} /* Got rid of float:right;  */
 .photo{
 border:1px solid #bababa;
 padding:2px;

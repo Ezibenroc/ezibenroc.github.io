@@ -4,7 +4,7 @@
 }
 
 #topnav ul {
-    width: 80%;
+    max-width: 1000px;
     margin: auto;
     list-style-type: none;
     padding: 0;
