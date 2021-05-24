@@ -1,8 +1,13 @@
 #+SETUPFILE: level-0.org
 #+TITLE: Publications
 
-- [[[http://dx.doi.org/10.1109/CLUSTER.2019.8891011][DOI]]] [[https://hal.inria.fr/hal-02096571][Fast and Faithful Performance Prediction of MPI Applications: the HPL Case Study]] with Arnaud Legrand and Franz C. Heinrich
+* Conferences
+- [[[http://dx.doi.org/10.1109/CLUSTER.2019.8891011][DOI]]] [[https://hal.inria.fr/hal-02096571][Fast and Faithful Performance Prediction of MPI Applications: the HPL Case Study]], with Arnaud Legrand and Franz C. Heinrich
 - [[[http://dx.doi.org/10.1109/cluster.2017.66][DOI]]] [[https://hal.inria.fr/hal-01523608][Predicting the Energy Consumption of MPI Applications at Scale Using a Single Node]], with Franz\nbsp C. Heinrich, Augustin Degomme, Arnaud Legrand, Alexandra
   Carpen-Amarie, Sascha Hunold, Anne-Cécile Orgerie and Martin Quinson.
 - [[[http://dx.doi.org/10.1109/HiPINEB.2017.13][DOI]]] Isolating jobs for security on high-performance fabrics, with Matthieu Perotin.
-- [[[http://dx.doi.org/10.1007/978-3-662-43613-4_5][DOI]]] [[https://hal.archives-ouvertes.fr/hal-00972559][Efficient and Generalized Decentralized Monitoring of Regular Languages]], with Yliès Falcone and Jean-Claude Fernandez.
+- [[[http://dx.doi.org/10.1007/978-3-662-43613-4_5][DOI]]] [[https://hal.archives-ouvertes.fr/hal-00972559][Efficient and Generalized Decentralized Monitoring of Regular Languages]],
+  with Yliès Falcone and Jean-Claude Fernandez.
+* Unpublished reports
+- [[https://hal.inria.fr/hal-03141988/][Simulation-based Optimization and Sensibility Analysis of MPI Applications: Variability Matters]], with Arnaud Legrand (currently under review for publication)
+- [[https://hal.inria.fr/view/index/?identifiant=hal-02401760][DGEMM performance is data-dependent]], with Arnaud Legrand

@@ -3,12 +3,12 @@
 
 Several open-source projects to which I contribute.
 * Simgrid
-Website: http://simgrid.gforge.inria.fr
+Website: https://simgrid.org/
 
 Simgrid is a free software to simulate a wide range of distributed systems: grid, P2P, cloud, MPI applications. Its
 simulation models have been theoretically and experimentally assessed.
 
-I mostly use and contribute to [[http://simgrid.gforge.inria.fr/simgrid/3.18/doc/group__SMPI__API.html][SMPI]], a module of Simgrid which can realisticaly simulate unmodified MPI applications.
+I mostly use and contribute to SMPI a module of Simgrid which can realisticaly simulate unmodified MPI applications.
 * Roaring bitmaps
 Website: http://roaringbitmap.org
 

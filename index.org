@@ -8,7 +8,7 @@ Since October 2017, I am a PhD student at the [[https://www.univ-grenoble-alpes.
 working on the simulation of HPC workloads and the statistical modeling of performance.  Prior to that, I did my [[https://hal.inria.fr/hal-01544827v1][master
 thesis]] on the same topic.
 
-More information about me is available in my [[file:cornebize.pdf][curriculum vitae]] (last update: 26 November 2019).
+More information about me is available in my [[file:cornebize.pdf][curriculum vitae]] (last update: 24 May 2021).
 
 I use two different identifiers for the (recent) publications:
 - ORCID: [[https://orcid.org/0000-0003-1439-2466][0000-0003-1439-2466]]
