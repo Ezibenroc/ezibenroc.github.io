@@ -4,9 +4,13 @@
 * About me
 #+HTML: <img src='img/picture.jpg' class='onright photo' alt=''/></img>
 
-Since October 2017, I am a PhD student at the [[https://www.univ-grenoble-alpes.fr/][Université Grenoble Alpes]], under the supervision of [[http://mescal.imag.fr/membres/arnaud.legrand/][Arnaud Legrand]]. I am
-working on the simulation of HPC workloads and the statistical modeling of performance.  Prior to that, I did my [[https://hal.inria.fr/hal-01544827v1][master
-thesis]] on the same topic.
+I am a computer scientist, mainly interested in the measure and modeling of
+computer performance.
+
+I graduated as a Ph.D. in computer science in June 2021 at the [[https://www.univ-grenoble-alpes.fr/][Université
+Grenoble Alpes]]. I worked under the supervision of [[http://mescal.imag.fr/membres/arnaud.legrand/][Arnaud Legrand]] on the
+simulation of HPC workloads and the statistical modeling of performance.  My
+thesis defense is available on [[https://youtu.be/J3N1qS5gcGI][YouTube]].
 
 More information about me is available in my [[file:cornebize.pdf][curriculum vitae]] (last update: 24 May 2021).
 
@@ -15,8 +19,3 @@ I use two different identifiers for the (recent) publications:
 - IdHAL: [[https://cv.archives-ouvertes.fr/tom-cornebize][tom-cornebize]]
 * Contact
 The best way to reach me is by email, at [[mailto:tom.cornebize@univ-grenoble-alpes.fr][tom.cornebize@univ-grenoble-alpes.fr]].
-* Thesis defense
-My thesis defense is planned on Wednesday 2 June at 4pm (UTC+2). It will be live
-streamed on Youtube:
-
-#+HTML: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/J3N1qS5gcGI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
