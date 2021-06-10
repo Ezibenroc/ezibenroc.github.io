@@ -3,6 +3,7 @@
 #+date: [2021-06-10 Thu]
 
 * Introduction
+The source code of this website can be found on [[https://github.com/Ezibenroc/ezibenroc.github.io][Github]].
 
 This setup is based on Emacs with [[https://orgmode.org][org-mode]]. The CSS is adapted from [[http://polaris.imag.fr/arnaud.legrand/][Arnaud
 Legrand's website]], while the Emacs functionnalities to publish the website have
@@ -16,10 +17,15 @@ been implemented by Duncan Mac-Vicar P. (see his [[https://duncan.codes/posts/20
 
 To generate:
 
-#+BEGIN_EXAMPLE
+#+BEGIN_SRC sh
 $ make
-#+END_EXAMPLE
+#+END_SRC
 
 The output site will be rendered in =public/=.
+
+To run a simple HTTP server locally, to preview before pushing:
+#+BEGIN_SRC sh
+make serve
+#+END_SRC
 * License
 The code used for generating the site is licensed under the [[file:LICENSE][MIT]] license.
