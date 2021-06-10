@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- 10 Jun. 2021 -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects</title>
+<meta name="generator" content="Org mode">
+<meta name="author" content="Tom Cornebize">
+<link href='css/stylesheet.css?v=ac24febb9ec9a45064c8f47a95510660f7e637cfdb58fb98e80019c0d9d1ead1' rel='stylesheet'/>
+<link href='css/navbar.css?v=98f777c359db5da90dae26bcf8f5b8a1c5edb1ea8ce880bf06e3fb5d94353a07' rel='stylesheet'/>
+<link href='css/font-awesome.min.css?v=799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd' rel='stylesheet'/>
+<meta description='Website of Tom Cornebize'/>
+<link rel='alternate' type='application+rss/xml' title='Website of Tom Cornebize' href='posts/rss.xml'/>
+<link rel='stylesheet' href='css/index.css?v=b6242fb6bcd4260eff39de0bbc8070b66079a531479c6374431bb9bea1d9feb7'/>
+</head>
+<body>
+<header id="preamble" class="status">
+<!--
+<link rel="stylesheet" title="Standard" href="css/stylesheet.css" type="text/css" />
+<link rel="stylesheet" title="Standard" href="css/navbar.css" type="text/css" />
+<link rel="stylesheet" title="Standard" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css" />
+--!>
+<div id="topnav">
+    <ul>
+        <li><a href="/">About</a></li>
+        <li><a href=/projects.html>Projects</a></li>
+        <li><a href=/publications.html>Publications</a></li>
+        <li><a href=/posts/posts.html>Posts</a></li>
+        <li class="right"><a href="https://www.linkedin.com/in/tomcornebize"                     class="list-group-item"><i class="fa fa-linkedin fa-fw"></i></a></li>
+        <li class="right"><a href="https://scholar.google.com/citations?user=4YtfEysAAAAJ&hl=fr" class="list-group-item"><i class="fa fa-google fa-fw"></i></a></li>
+        <li class="right"><a href="https://stackoverflow.com/users/4110059/tom-cornebize"        class="list-group-item"><i class="fa fa-stack-overflow fa-fw"></i></a></li>
+        <li class="right"><a href="https://github.com/Ezibenroc/"                                class="list-group-item"><i class="fa fa-github fa-fw"></i></a></li>
+        <li class="right"><a href="mailto:tom.cornebize@univ-grenoble-alpes.fr"                  class="list-group-item"><i class="fa fa-envelope fa-fw"></i></a></li>
+    </ul>
+</div>
+</header>
+<main id="content">
+<header>
+<h1 class="title">Projects</h1>
+</header><p>
+Several open-source projects to which I contribute.
+</p>
+<section id="outline-container-org17d9620" class="outline-2">
+<h2 id="org17d9620">Simgrid</h2>
+<div class="outline-text-2" id="text-org17d9620">
+<p>
+Website: <a href="https://simgrid.org/">https://simgrid.org/</a>
+</p>
+
+<p>
+Simgrid is a free software to simulate a wide range of distributed systems: grid, P2P, cloud, MPI applications. Its
+simulation models have been theoretically and experimentally assessed.
+</p>
+
+<p>
+I mostly use and contribute to SMPI a module of Simgrid which can realisticaly simulate unmodified MPI applications.
+</p>
+</div>
+</section>
+<section id="outline-container-org3fce0b0" class="outline-2">
+<h2 id="org3fce0b0">Roaring bitmaps</h2>
+<div class="outline-text-2" id="text-org3fce0b0">
+<p>
+Website: <a href="http://roaringbitmap.org">http://roaringbitmap.org</a>
+</p>
+
+<p>
+Roaring bitmaps are fast and lightweight sets of unsigned 32 bits integers. They can be several orders of magnitude more
+efficient than classical implementations (e.g. hash tables, balanced binary trees, uncompressed bitmaps), both in terms
+of time and memory consumption. Implementations exist in several languages, including C and Python:
+</p>
+<ul class="org-ul">
+<li><a href="https://github.com/RoaringBitmap/CRoaring">CRoaring</a> is a C implementation. I implemented several parts of the library: range constructor, select query, subset test.</li>
+<li><a href="https://github.com/Ezibenroc/PyRoaringBitMap">PyRoaring</a> is a Python wrapper for the C implementation. It allows to use roaring bitmaps transparently in Python, with
+the speed of C. I implemented most of the library.</li>
+</ul>
+</div>
+</section>
+<section id="outline-container-org089b2a0" class="outline-2">
+<h2 id="org089b2a0">Platypus</h2>
+<div class="outline-text-2" id="text-org089b2a0">
+<p>
+Website: <a href="https://projetpp.github.io">https://projetpp.github.io</a>
+</p>
+
+<p>
+Platypus is a modular and open source question answering framework. Its main purpose is to answer to questions asked in
+a natural language (e.g. in English). For instance, it answers correctly to the question:
+</p>
+
+<blockquote>
+<p>
+What is the birth date of the president of the United States?
+</p>
+</blockquote>
+
+<p>
+For more information, read the <a href="doc/platypus_report.pdf">report</a> or the <a href="doc/platypus_slides.pdf">slides</a>. This work was initially a student project. It was done as part of
+the master&rsquo;s first year at the ENS Lyon, in a team of seven. The project has then been sold to <a href="https://lexistems.com/">Lexistems</a> and is no
+longer actively maintained by ourselves.
+</p>
+</div>
+</section>
+</main>
+<footer id="postamble" class="status">
+<p>Last updated 10 Jun. 2021. Built with <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.6). <a href="/README.html">Details</a>.</p>
+</footer>
+</body>
+</html>

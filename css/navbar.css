@@ -1,0 +1,40 @@
+#topnav {
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+#topnav ul {
+    max-width: 1000px;
+    margin: auto;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topnav ul li {float: left;}
+
+#topnav ul li a {
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#topnav ul li a:hover:not(.active) {
+    background-color: #f2f2f2;
+    color: var(--main-color);
+}
+
+#topnav ul li a.active {
+    background-color: #4CAF50;
+}
+
+#topnav ul li.right {
+    float: right;
+}
+
+@media screen and (max-width: 600px){
+    #topnav ul li.right,
+    #topnav ul li {float: none;}
+}
