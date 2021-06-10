@@ -287,7 +287,7 @@
          :html-link-use-abs-url t)
    (list "site"
          :base-directory "./"
-         :include '("posts/archive.org" "README.org")
+         :include '("posts/posts.org" "posts/archive.org" "README.org")
          :base-extension "org"
          :publishing-directory (expand-file-name "public" (projectile-project-root))
          :publishing-function 'duncan/org-html-publish-site-to-html
