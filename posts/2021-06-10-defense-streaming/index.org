@@ -65,7 +65,7 @@ created four different scenes in OBS with various layouts.
 4. Presentation scene, used during my talk. I used a window capture (Xcomposite)
    of my PDF viewer and I added my webcam on the side (video capture
    V4L2). Important: I needed to disable video buffering for the camera,
-   otherwise it was not properly synchronized with the rest (double click on the
+   otherwise it was not properly synchronized with the rest (double-click on the
    source, then scroll down and untick the box).
 In both the scenes 3 and 4, I also had two audio sources. I had the audio output
 of my laptop (PulseAudio) to hear the jury and my microphone (Alsa).
@@ -73,7 +73,7 @@ of my laptop (PulseAudio) to hear the jury and my microphone (Alsa).
 In all scenes I needed to mute the two default audio sources that appear in the
 audio mixer, to truly have no audio in the first two scenes and only the audio I
 selected in the two last scenes.
-* Using the webcam on several applications silmutaneously
+* Using the webcam on several applications simultaneously
 As described above, I needed to use my webcam in two different applications,
 Firefox (for BBB) and OBS. This is not possible natively. To fix that, I found
 this [[https://debian-facile.org/doc:multimedia:v4l2loopback][tutorial]] and this [[https://askubuntu.com/questions/165727/is-it-possible-for-two-processes-to-access-the-webcam-at-the-same-time][question]].
@@ -128,7 +128,7 @@ echo). Hence, I bought a cheap [[https://www.amazon.fr/gp/product/B07MR5TPKV/ref
 
 With this setup, the sound of my microphone was not very good, I could hear some
 echo. My guess is that the cheap adapter is crappy and we have signal
-interferences between the input and the output. Fortunately, I had at home an
+interferences between the input and the output. Fortunately, I had at home a
 USB DAC headphone amplifier (the FiiO Olympus 2 E10K). Thus, I could plug my
 earphones on this amplifier and my microphone directly on the laptop jack entry,
 without using the adapter. This is obviously an overkill solution, but this
