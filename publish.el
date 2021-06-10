@@ -42,12 +42,12 @@
 
 (defun duncan/archive-sitemap-function (title sitemap)
   "archive.org page (Blog full post list). Wrapper to skip TITLE and just use LIST (https://orgmode.org/manual/Sitemap.html)."
-  (let* ((title "Blog") (subtitle "Archive")
+  (let* ((title "Posts")
          (posts (cdr sitemap))
          (posts (duncan/org-publish-sitemap--valid-entries posts)))
-    (concat (format "#+TITLE: %s\n\n* %s\n" title subtitle)
+    (concat (format "#+TITLE: %s\n\n" title)
             (org-list-to-org (cons (car sitemap) posts))
-            "\n#+BEGIN_EXPORT html\n<a href='rss.xml'><i class='fa fa-rss'></i></a>\n#+END_EXPORT\n")))
+    )))
 
 (defun duncan/archive-sitemap-format-entry (entry style project)
   "archive.org and posts.org (latest) entry formatting. Format sitemap ENTRY for PROJECT with the post date before the link, to generate a posts list.  STYLE is not used."
@@ -242,7 +242,7 @@
          :sitemap-style 'list
          :sitemap-title nil
          :sitemap-sort-files 'anti-chronologically
-         :sitemap-function 'duncan/latest-posts-sitemap-function
+         :sitemap-function 'duncan/archive-sitemap-function
          :sitemap-format-entry 'duncan/archive-sitemap-format-entry)
    (list "archive"
          :base-directory "./posts"
