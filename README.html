@@ -38,9 +38,13 @@
 <header>
 <h1 class="title">My homepage with org-mode</h1>
 </header>
-<section id="outline-container-org47799a3" class="outline-2">
-<h2 id="org47799a3">Introduction</h2>
-<div class="outline-text-2" id="text-org47799a3">
+<section id="outline-container-orgda4ba5b" class="outline-2">
+<h2 id="orgda4ba5b">Introduction</h2>
+<div class="outline-text-2" id="text-orgda4ba5b">
+<p>
+The source code of this website can be found on <a href="https://github.com/Ezibenroc/ezibenroc.github.io">Github</a>.
+</p>
+
 <p>
 This setup is based on Emacs with <a href="https://orgmode.org">org-mode</a>. The CSS is adapted from <a href="http://polaris.imag.fr/arnaud.legrand/">Arnaud
 Legrand&rsquo;s website</a>, while the Emacs functionnalities to publish the website have
@@ -49,9 +53,9 @@ been implemented by Duncan Mac-Vicar P. (see his <a href="https://duncan.codes/p
 </p>
 </div>
 </section>
-<section id="outline-container-org5fd0d60" class="outline-2">
-<h2 id="org5fd0d60">Usage</h2>
-<div class="outline-text-2" id="text-org5fd0d60">
+<section id="outline-container-orgceafe23" class="outline-2">
+<h2 id="orgceafe23">Usage</h2>
+<div class="outline-text-2" id="text-orgceafe23">
 <ul class="org-ul">
 <li>Posts go into <code>posts/</code>
 Preferably in their own subdirectory together with all their assets (self-contained)</li>
@@ -62,18 +66,27 @@ Preferably in their own subdirectory together with all their assets (self-contai
 To generate:
 </p>
 
-<pre class="example" id="org80a021a">
-$ make
+<div class="org-src-container">
+<pre class="src src-sh">$ make
 </pre>
+</div>
 
 <p>
 The output site will be rendered in <code>public/</code>.
 </p>
+
+<p>
+To run a simple HTTP server locally, to preview before pushing:
+</p>
+<div class="org-src-container">
+<pre class="src src-sh">make serve
+</pre>
+</div>
 </div>
 </section>
-<section id="outline-container-orgdf32c35" class="outline-2">
-<h2 id="orgdf32c35">License</h2>
-<div class="outline-text-2" id="text-orgdf32c35">
+<section id="outline-container-org5854493" class="outline-2">
+<h2 id="org5854493">License</h2>
+<div class="outline-text-2" id="text-org5854493">
 <p>
 The code used for generating the site is licensed under the <a href="LICENSE">MIT</a> license.
 </p>
