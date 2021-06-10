@@ -40,9 +40,9 @@ also live-streamed on YouTube for the public. The resulting video can be found
 <a href="https://youtu.be/J3N1qS5gcGI">here</a>.
 </p>
 
-<section id="outline-container-org618f98b" class="outline-2">
-<h2 id="org618f98b">My system</h2>
-<div class="outline-text-2" id="text-org618f98b">
+<section id="outline-container-org966cda1" class="outline-2">
+<h2 id="org966cda1">My system</h2>
+<div class="outline-text-2" id="text-org966cda1">
 <p>
 Some steps may differ, depending on your hardware and operating system. I used
 my laptop, a Dell Latitude 5480 with an Intel i7-7820HQ CPU and 16 GB of
@@ -55,9 +55,9 @@ The defense was streamed with the OBS software. I installed it with the usual
 </p>
 </div>
 </section>
-<section id="outline-container-org6199020" class="outline-2">
-<h2 id="org6199020">What to stream?</h2>
-<div class="outline-text-2" id="text-org6199020">
+<section id="outline-container-org7847954" class="outline-2">
+<h2 id="org7847954">What to stream?</h2>
+<div class="outline-text-2" id="text-org7847954">
 <p>
 Initially, I wanted to directly stream the BBB window, for convenience. In BBB
 you can upload the PDF of your slides and make your entire presentation within
@@ -98,16 +98,16 @@ read the man-page, it has a lot of very nice features.
 </p>
 </div>
 </section>
-<section id="outline-container-org572f969" class="outline-2">
-<h2 id="org572f969">OBS setup</h2>
-<div class="outline-text-2" id="text-org572f969">
+<section id="outline-container-orgd7ec0af" class="outline-2">
+<h2 id="orgd7ec0af">OBS setup</h2>
+<div class="outline-text-2" id="text-orgd7ec0af">
 <p>
 I describe here how I configured OBS itself.
 </p>
 </div>
-<div id="outline-container-orgd39f7fb" class="outline-3">
-<h3 id="orgd39f7fb">General settings</h3>
-<div class="outline-text-3" id="text-orgd39f7fb">
+<div id="outline-container-org2f4231f" class="outline-3">
+<h3 id="org2f4231f">General settings</h3>
+<div class="outline-text-3" id="text-org2f4231f">
 <p>
 In <code>File</code> then <code>Parameter</code>, I changed a few things.
 </p>
@@ -121,9 +121,9 @@ to 1920x1080. I also changed the FPS to 30.</li>
 </ul>
 </div>
 </div>
-<div id="outline-container-org0ecbfc6" class="outline-3">
-<h3 id="org0ecbfc6">Scenes</h3>
-<div class="outline-text-3" id="text-org0ecbfc6">
+<div id="outline-container-orga7b7a8a" class="outline-3">
+<h3 id="orga7b7a8a">Scenes</h3>
+<div class="outline-text-3" id="text-orga7b7a8a">
 <p>
 As I said, the defense was carried on BigBlueButton and streamed on YouTube. I
 created four different scenes in OBS with various layouts.
@@ -139,7 +139,7 @@ top to remove the URL.</li>
 <li>Presentation scene, used during my talk. I used a window capture (Xcomposite)
 of my PDF viewer and I added my webcam on the side (video capture
 V4L2). Important: I needed to disable video buffering for the camera,
-otherwise it was not properly synchronized with the rest (double click on the
+otherwise it was not properly synchronized with the rest (double-click on the
 source, then scroll down and untick the box).</li>
 </ol>
 <p>
@@ -155,9 +155,9 @@ selected in the two last scenes.
 </div>
 </div>
 </section>
-<section id="outline-container-orgce8f880" class="outline-2">
-<h2 id="orgce8f880">Using the webcam on several applications silmutaneously</h2>
-<div class="outline-text-2" id="text-orgce8f880">
+<section id="outline-container-org8ad19d6" class="outline-2">
+<h2 id="org8ad19d6">Using the webcam on several applications simultaneously</h2>
+<div class="outline-text-2" id="text-org8ad19d6">
 <p>
 As described above, I needed to use my webcam in two different applications,
 Firefox (for BBB) and OBS. This is not possible natively. To fix that, I found
@@ -201,9 +201,9 @@ that it asks again.
 </p>
 </div>
 </section>
-<section id="outline-container-org1c524a1" class="outline-2">
-<h2 id="org1c524a1">Reduce the microphone noise</h2>
-<div class="outline-text-2" id="text-org1c524a1">
+<section id="outline-container-org59a88db" class="outline-2">
+<h2 id="org59a88db">Reduce the microphone noise</h2>
+<div class="outline-text-2" id="text-org59a88db">
 <p>
 I used a good microphone (see next section), but still had some white noise in
 the background. To fix this, we can process the audio with pulseaudio.
@@ -230,9 +230,9 @@ Then, simply go to the OS parameters to change the audio input source and choose
 </p>
 </div>
 </section>
-<section id="outline-container-org4cefce6" class="outline-2">
-<h2 id="org4cefce6">Audio hardware</h2>
-<div class="outline-text-2" id="text-org4cefce6">
+<section id="outline-container-org8c77571" class="outline-2">
+<h2 id="org8c77571">Audio hardware</h2>
+<div class="outline-text-2" id="text-org8c77571">
 <p>
 In my very first rehearsals, I used the integrated microphone of my laptop. As
 expected, the sound was terrible.
@@ -252,7 +252,7 @@ echo). Hence, I bought a cheap <a href="https://www.amazon.fr/gp/product/B07MR5T
 <p>
 With this setup, the sound of my microphone was not very good, I could hear some
 echo. My guess is that the cheap adapter is crappy and we have signal
-interferences between the input and the output. Fortunately, I had at home an
+interferences between the input and the output. Fortunately, I had at home a
 USB DAC headphone amplifier (the FiiO Olympus 2 E10K). Thus, I could plug my
 earphones on this amplifier and my microphone directly on the laptop jack entry,
 without using the adapter. This is obviously an overkill solution, but this
