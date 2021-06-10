@@ -1,4 +1,3 @@
-#+SETUPFILE: level-0.org
 #+TITLE: Tom Cornebize
 
 * About me

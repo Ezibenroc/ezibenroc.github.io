@@ -1,4 +1,3 @@
-#+SETUPFILE: level-0.org
 #+TITLE: Projects
 
 Several open-source projects to which I contribute.

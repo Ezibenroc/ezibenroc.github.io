@@ -1,0 +1,25 @@
+#+title: My homepage with org-mode
+#+author: Tom Cornebize
+#+date: [2021-06-10 Thu]
+
+* Introduction
+
+This setup is based on Emacs with [[https://orgmode.org][org-mode]]. The CSS is adapted from [[http://polaris.imag.fr/arnaud.legrand/][Arnaud
+Legrand's website]], while the Emacs functionnalities to publish the website have
+been implemented by Duncan Mac-Vicar P. (see his [[https://duncan.codes/posts/2019-09-03-migrating-from-jekyll-to-org/][his introductory post]] and the
+[[https://github.com/dmacvicar/site.org][original source]]).
+* Usage
+
+- Posts go into =posts/=
+  Preferably in their own subdirectory together with all their assets (self-contained)
+- Tutorials go in =tutorials/=, as they are rendered (for now) with the [[https://github.com/fniessen/org-html-themes][readtheorg]] theme
+
+To generate:
+
+#+BEGIN_EXAMPLE
+$ make
+#+END_EXAMPLE
+
+The output site will be rendered in =public/=.
+* License
+The code used for generating the site is licensed under the [[file:LICENSE][MIT]] license.
