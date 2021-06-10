@@ -1,7 +1,0 @@
-#+TITLE: Blog
-
-* Archive
-- <2021-06-10 jeu.> [[file:2021-06-10-defense-streaming/index.org][How to configure your system for streaming the defense on YouTube?]]
-#+BEGIN_EXPORT html
-<a href='rss.xml'><i class='fa fa-rss'></i></a>
-#+END_EXPORT
