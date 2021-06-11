@@ -143,7 +143,7 @@
     (list
 (list "link" (list "href" (duncan/asset-relative-link-to "css/stylesheet.css" pub-dir t) "rel" "stylesheet"))
 (list "link" (list "href" (duncan/asset-relative-link-to "css/navbar.css" pub-dir t) "rel" "stylesheet"))
-(list "link" (list "href" (duncan/asset-relative-link-to "css/font-awesome.min.css" pub-dir t) "rel" "stylesheet"))
+(list "link" (list "href" "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" "rel" "stylesheet"))
      (list "meta" (list "description" description))
      (list "link" (list "rel" "alternate" "type" "application+rss/xml" "title" description "href" "posts/rss.xml")))))
 
