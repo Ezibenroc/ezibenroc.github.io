@@ -11,4 +11,5 @@
 - [[https://hal.inria.fr/hal-03141988/][Simulation-based Optimization and Sensibility Analysis of MPI Applications: Variability Matters]], with Arnaud Legrand (currently under review for publication)
 - [[https://hal.inria.fr/hal-02401760][DGEMM performance is data-dependent]], with Arnaud Legrand
 * Thesis
+- [[file:doc/thesis_manuscript.pdf][PhD thesis]]
 - [[https://hal.inria.fr/hal-01544827v1][Master thesis]]
