@@ -4,7 +4,7 @@
 #+HTML: <img src='img/picture.jpg' class='onright photo' alt=''/></img>
 
 I am a computer scientist, mainly interested in the measure and modeling of
-computer performance. More information about me is available in my [[file:cornebize.pdf][curriculum
+computer performance. More information about me is available in my [[file:cv.pdf][curriculum
 vitae]] (last update: 4 September 2021).
 
 I graduated as a Ph.D. in computer science in June 2021 at the [[https://www.univ-grenoble-alpes.fr/][Université
