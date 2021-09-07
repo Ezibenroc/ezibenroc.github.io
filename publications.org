@@ -7,7 +7,7 @@
 - [[[http://dx.doi.org/10.1109/HiPINEB.2017.13][DOI]]] Isolating jobs for security on high-performance fabrics, with Matthieu Perotin.
 - [[[http://dx.doi.org/10.1007/978-3-662-43613-4_5][DOI]]] [[https://hal.archives-ouvertes.fr/hal-00972559][Efficient and Generalized Decentralized Monitoring of Regular Languages]],
   with Yliès Falcone and Jean-Claude Fernandez.
-* Unpublished reports
+* Preprints
 - [[https://hal.inria.fr/hal-03141988/][Simulation-based Optimization and Sensibility Analysis of MPI Applications: Variability Matters]], with Arnaud Legrand (currently under review for publication)
 - [[https://hal.inria.fr/hal-02401760][DGEMM performance is data-dependent]], with Arnaud Legrand
 * Thesis
