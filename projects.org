@@ -1,15 +1,7 @@
 #+TITLE: Projects
 
-Several open-source projects to which I contribute.
-* Simgrid
-Website: https://simgrid.org/
+Several open-source projects that I authored or contributed to.
 
-Simgrid is a free software to simulate a wide range of distributed systems:
-grid, P2P, cloud, MPI applications. Its simulation models have been
-theoretically and experimentally assessed.
-
-I mostly use and contribute to SMPI a module of Simgrid which can realisticaly
-simulate unmodified MPI applications.
 * Roaring bitmaps
 Website: http://roaringbitmap.org
 
@@ -22,7 +14,63 @@ including C and Python:
   range constructor, select query, subset test.
 - [[https://github.com/Ezibenroc/PyRoaringBitMap][PyRoaring]] is a Python wrapper for the C implementation. It allows to use
   roaring bitmaps transparently in Python, with the speed of C. I implemented
-  most of the library.
+  most of the library, using the Cython programming language.
+* G5K tests
+Website: https://cornebize.net/g5k_test
+
+Performance tests on [[https://www.grid5000.fr/][Grid'5000]].
+
+On a near-daily basis, I run micro-benchmarks on hundreds of Grid'5000 nodes.
+Several statistical tests are then performed on several metrics (e.g. CPU
+performance, frequency, temperature, power consumption). I implemented the tests
+in Python, it consists in estimating the likelihood to observe a new value (or a
+sequence of new values) given the old observations.
+
+These tests allowed to detect several events affecting significantly the nodes
+performance. These events went unnoticed by both the staff and the users. With
+further investigations, I could pinpoint the root cause most of the time
+(cooling issue, faulty memory, power instability, BIOS upgrade).
+
+I implemented this library during my PhD thesis, more information can be found
+in the chapter 11 of my [[https://tel.archives-ouvertes.fr/tel-03328956/document][thesis]].
+* Pycewise
+Repository: https://github.com/Ezibenroc/pycewise
+
+Python module to compute a segmented linear regression.
+
+It is implemented in Python, using a two-phase greedy algorithm. Several
+objective functions are available: Ordinary Least Square, Weighted Least Square
+(implemented with a closed formula), Logarithmic Least Square (implemented with
+a gradient descent).
+
+This module gave much better fits than other alternatives I tested on my data,
+like [[https://github.com/DataDog/piecewise][Datadog's piecewise]] or [[https://cran.r-project.org/web/packages/Cubist/index.html][Cubist]].
+
+I implemented this library during my PhD thesis, more information can be found
+in the chapter 5 of my [[https://tel.archives-ouvertes.fr/tel-03328956/document][thesis]] (section 5.3.3).
+* Peanut
+Repository: https://github.com/Ezibenroc/peanut
+
+Experiment engine for [[https://www.grid5000.fr/][Grid'5000]].
+
+This library allows to write experiments as readable and concise Python scripts.
+Common tasks (e.g. node deployment, resource monitoring) are factorized in the
+engine.  Experiment data and meta-data are automatically collected in an
+archive.
+
+I implemented this library during my PhD thesis, more information can be found
+in the chapter 9 of my [[https://tel.archives-ouvertes.fr/tel-03328956/document][thesis]].
+* Simgrid
+Website: https://simgrid.org/
+
+Simgrid is a 20 year old free software to simulate a wide range of distributed
+systems: grid, P2P, cloud, MPI applications. Its simulation models have been
+theoretically and experimentally assessed.
+
+I mostly used and contributed to SMPI a module of Simgrid which can
+realistically simulate unmodified MPI applications. I implemented several
+features to improve the simulation efficiency. I also greatly improved the
+calibration procedure for modeling an existing platform.
 * Platypus
 Website: https://projetpp.github.io
 
