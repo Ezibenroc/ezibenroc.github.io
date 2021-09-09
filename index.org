@@ -18,4 +18,4 @@ I use two different identifiers for the (recent) publications:
 - ORCID: [[https://orcid.org/0000-0003-1439-2466][0000-0003-1439-2466]]
 - IdHAL: [[https://cv.archives-ouvertes.fr/tom-cornebize][tom-cornebize]]
 * Contact
-The best way to reach me is by email, at [[mailto:tom.cornebize@inria.fr][tom.cornebize@inria.fr]].
+The best way to reach me is by email, at [[mailto:tom.cornebize@gmail.com][tom.cornebize@gmail.com]].
