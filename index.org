@@ -5,7 +5,7 @@
 
 I am a computer scientist, mainly interested in the measure and modeling of
 computer performance. More information about
-me is available in my [[file:resume.pdf][resume]] and my (longer) [[file:cv.pdf][academic CV]] (last update: 5 October 2022).
+me is available in my [[file:resume.pdf][resume]] (last update: 2 March 2024) and my (longer) [[file:cv.pdf][academic CV]].
 
 I graduated as a Ph.D. in computer science in June 2021 at the [[https://www.univ-grenoble-alpes.fr/][Université
 Grenoble Alpes]]. I worked under the supervision of [[http://polaris.imag.fr/arnaud.legrand/][Arnaud Legrand]] on the
